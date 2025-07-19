@@ -1,4 +1,4 @@
-# iOS Coordinator Pattern Example with Tab Bar
+# iOS Coordinator Pattern Example
 
 A comprehensive iOS project demonstrating the **Coordinator Pattern** for navigation management in UIKit apps, including tab bar integration and child coordinators.
 
