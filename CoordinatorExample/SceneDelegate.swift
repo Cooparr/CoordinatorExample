@@ -21,13 +21,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         
-        let navigationController = UINavigationController()
-        mainCoordinator = MainCoordinator(navigationController: navigationController)
-        mainCoordinator?.start()
+        /// If we didn't have a TabBarController you would pass this to window?.rootViewController
+//        let navigationController = UINavigationController()
+//        mainCoordinator = MainCoordinator(navigationController: navigationController)
+//        mainCoordinator?.start()
         
         // Set up the window
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = navigationController
+        window?.rootViewController = TabBarViewController()
         window?.makeKeyAndVisible()
     }
 

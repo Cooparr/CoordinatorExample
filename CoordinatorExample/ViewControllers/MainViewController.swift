@@ -52,7 +52,7 @@ class MainViewController: UIViewController {
         let label = UILabel()
         label.textAlignment = .center
         label.font = .systemFont(ofSize: 24, weight: .bold)
-        label.text = "Coordinator Pattern!"
+        label.text = "Main Coordinator"
         label.textColor = .white
         return label
     }()
